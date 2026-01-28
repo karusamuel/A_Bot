@@ -12,7 +12,7 @@
     ],
     "content_scripts": [
       {
-        "matches": ["https://rollcall.instructure.com/sections/*"],
+        "matches": ["https://rollcall.instructure.com/sections/*","https://rc.moringaschool.com/*"],
         "js": ["/scripts/jquery.js","/scripts/content_script.js"]
       }
     ],
